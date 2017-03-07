@@ -29,9 +29,7 @@ public class OfferItem implements OfferItemInterface{
 	private String currency;
 
 	// discount
-	private String discountCause;
-
-	private BigDecimal discount;
+	
 
 	public OfferItem(Product product, int quantity) {
 		this(product, quantity, null, null);
