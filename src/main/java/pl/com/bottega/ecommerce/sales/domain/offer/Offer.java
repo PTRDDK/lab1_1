@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Offer {
-private List<OfferItem> availabeItems = new ArrayList<OfferItem>();
-	
+	private List<OfferItem> availabeItems = new ArrayList<OfferItem>();
 	private List<OfferItem> unavailableItems = new ArrayList<OfferItem>();
 	
 	
@@ -64,8 +63,7 @@ private List<OfferItem> availabeItems = new ArrayList<OfferItem>();
 				return false;
 			if (!sameItem.sameAs(item, delta))
 				return false;
-		}
-		
+		}	
 		return true;
 	}
 

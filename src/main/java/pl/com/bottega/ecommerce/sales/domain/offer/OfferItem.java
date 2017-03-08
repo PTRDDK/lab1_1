@@ -19,7 +19,6 @@ import java.math.BigDecimal;
 
 public class OfferItem {
 
-	// product
 	private Product product;
 	
 	private Discount discount;
@@ -29,8 +28,6 @@ public class OfferItem {
 	private BigDecimal totalCost;
 
 	private String currency;
-
-	// discount
 	
 
 	public OfferItem(Product product, int quantity) {
