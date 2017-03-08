@@ -17,7 +17,7 @@ package pl.com.bottega.ecommerce.sales.domain.offer;
 
 import java.math.BigDecimal;
 
-public class OfferItem implements OfferItemInterface{
+public class OfferItem {
 
 	// product
 	private Product product;
